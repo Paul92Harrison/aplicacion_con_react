@@ -1,0 +1,225 @@
+{
+  "menu": [
+    {
+      "id": "marlin",
+      "nombre": "Marlin en escabeche",
+      "tipo": "entrada",
+      "precio": 120
+    },
+    {
+      "id": "frijoles",
+      "nombre": "Frijoles puercos",
+      "tipo": "entrada",
+      "precio": 120
+    },
+    {
+      "id": "guacamole",
+      "nombre": "Guacamole",
+      "tipo": "entrada",
+      "precio": 120
+    },
+    {
+      "id": "chorreada",
+      "nombre": "Chorreada de carne asada",
+      "tipo": "fuerte",
+      "precio": 150
+    },
+    {
+      "id": "tacos",
+      "nombre": "Orden de 3 tacos de carne asada",
+      "tipo": "fuerte",
+      "precio": 150
+    },
+    {
+      "id": "quesadilla",
+      "nombre": "Quesadilla de carne asada",
+      "tipo": "fuerte",
+      "precio": 150
+    },
+    {
+      "id": "flan",
+      "nombre": "Flan",
+      "tipo": "postre",
+      "precio": 100
+    },
+    {
+      "id": "brownie",
+      "nombre": "Brownie con helado de vainilla",
+      "tipo": "postre",
+      "precio": 100
+    },
+    {
+      "id": "sundae",
+      "nombre": "Sundae con papas fritas",
+      "tipo": "postre",
+      "precio": 100
+    },
+    {
+      "id": "jamaica",
+      "nombre": "Agua de jamaica",
+      "detalle": "1 litro",
+      "tipo": "bebida",
+      "precio": 40
+    },
+    {
+      "id": "cebada",
+      "nombre": "Agua de cebada",
+      "detalle": "1 litro",
+      "tipo": "bebida",
+      "precio": 40
+    },
+    {
+      "id": "cocacola",
+      "nombre": "Coca-Cola",
+      "detalle": "600 ml",
+      "tipo": "bebida",
+      "precio": 40
+    }
+  ],
+  "ordenes": [
+    {
+      "mesa": 2,
+      "menuId": "chorreada",
+      "nombre": "Chorreada de carne asada",
+      "tipo": "fuerte",
+      "precio": 150,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:33.568Z",
+      "alertaQuitada": false,
+      "id": "rlVIWiCIGno"
+    },
+    {
+      "mesa": 2,
+      "menuId": "chorreada",
+      "nombre": "Chorreada de carne asada",
+      "tipo": "fuerte",
+      "precio": 150,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:17.906Z",
+      "alertaQuitada": false,
+      "id": "h5ZBDdA9LFY"
+    },
+    {
+      "mesa": 2,
+      "menuId": "quesadilla",
+      "nombre": "Quesadilla de carne asada",
+      "tipo": "fuerte",
+      "precio": 150,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:19.700Z",
+      "alertaQuitada": false,
+      "id": "RGr8K7XPtts"
+    },
+    {
+      "mesa": 2,
+      "menuId": "flan",
+      "nombre": "Flan",
+      "tipo": "postre",
+      "precio": 100,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:21.316Z",
+      "alertaQuitada": false,
+      "id": "hgkaUOAScXA"
+    },
+    {
+      "mesa": 2,
+      "menuId": "cebada",
+      "nombre": "Agua de cebada",
+      "tipo": "bebida",
+      "precio": 40,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:35.086Z",
+      "alertaQuitada": false,
+      "id": "yoWwy4SP3E4"
+    },
+    {
+      "mesa": 2,
+      "menuId": "cebada",
+      "nombre": "Agua de cebada",
+      "tipo": "bebida",
+      "precio": 40,
+      "etapa": "Entregado",
+      "ingreso": "2026-10-23T04:19:14.739Z",
+      "entregadoEn": "2026-10-23T04:19:36.728Z",
+      "alertaQuitada": false,
+      "id": "sb80j23XAic"
+    }
+  ],
+  "tickets": [
+    {
+      "fecha": "2026-10-22",
+      "folio": 1,
+      "mesa": 1,
+      "apertura": "2026-10-23T04:16:36.394Z",
+      "cierre": "2026-10-23T04:17:58.104Z",
+      "platillos": [
+        {
+          "nombre": "Frijoles puercos",
+          "tipo": "entrada",
+          "precio": 120,
+          "cantidad": 1,
+          "importe": 120
+        },
+        {
+          "nombre": "Guacamole",
+          "tipo": "entrada",
+          "precio": 120,
+          "cantidad": 1,
+          "importe": 120
+        },
+        {
+          "nombre": "Chorreada de carne asada",
+          "tipo": "fuerte",
+          "precio": 150,
+          "cantidad": 1,
+          "importe": 150
+        },
+        {
+          "nombre": "Orden de 3 tacos de carne asada",
+          "tipo": "fuerte",
+          "precio": 150,
+          "cantidad": 1,
+          "importe": 150
+        },
+        {
+          "nombre": "Brownie con helado de vainilla",
+          "tipo": "postre",
+          "precio": 100,
+          "cantidad": 1,
+          "importe": 100
+        },
+        {
+          "nombre": "Sundae con papas fritas",
+          "tipo": "postre",
+          "precio": 100,
+          "cantidad": 1,
+          "importe": 100
+        },
+        {
+          "nombre": "Agua de jamaica",
+          "tipo": "bebida",
+          "precio": 40,
+          "cantidad": 1,
+          "importe": 40
+        },
+        {
+          "nombre": "Coca-Cola",
+          "tipo": "bebida",
+          "precio": 40,
+          "cantidad": 1,
+          "importe": 40
+        }
+      ],
+      "subtotal": 706.9,
+      "iva": 113.1,
+      "total": 820,
+      "id": "QLL3hpIe_-c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

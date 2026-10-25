@@ -1,0 +1,68 @@
+/* Tema oscuro con detalles en tinto vino */
+:root {
+  --fondo: #141012;
+  --superficie: #1e181b;
+  --superficie-alta: #2a2125;
+  --borde: #3d3035;
+  --borde-campo: #7a6970;
+  --texto: #f3ecee;
+  --texto-secundario: #b8a9af;
+  --vino: #8e2435;
+  --vino-oscuro: #6e1a29;
+  --vino-claro: #e2788a;
+  --vino-fondo: #3a121b;
+  --hueso: #f4ece4;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.4;
+  color: var(--texto);
+  background-color: var(--fondo);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+a {
+  color: var(--vino-claro);
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  color: var(--texto);
+  background-color: var(--superficie-alta);
+}
+
+/* Contorno visible al navegar con teclado */
+:focus-visible {
+  outline: 3px solid var(--vino-claro);
+  outline-offset: 2px;
+}
+
+/* Texto que solo leen los lectores de pantalla */
+.solo-lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
